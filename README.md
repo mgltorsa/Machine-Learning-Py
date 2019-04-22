@@ -1,9 +1,9 @@
 # Machine-Learning-Py
 
-##About Machine learning:
+## About Machine learning:
 
-###Naive Bayes
+### Naive Bayes
 https://github.com/IntSEA/Ultimate-FeelSoft/blob/master/FeelSoftSolution/NaiveBayes/MachingLearn.cs
 
-###Category
+### Category
 https://github.com/IntSEA/Ultimate-FeelSoft/blob/master/FeelSoftSolution/NaiveBayes/Category.cs
