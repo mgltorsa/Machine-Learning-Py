@@ -7,6 +7,8 @@ Nota: es preferible que cada una de las funcionalidades
 anteriormente mencionadas se haga en metodos
 y dentro de una clase para reducir tiempos de carga.
 
+@Author Miguel Torres
+
 """
 
 
