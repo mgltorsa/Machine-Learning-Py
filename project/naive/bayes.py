@@ -1,5 +1,6 @@
 from numpy import *
 
+
 class MachineLearning:
     
         # private Dictionary<int,Category> categories;
@@ -52,39 +53,12 @@ class MachineLearning:
             lis.append(tmp)
             if (nExist):
                 moment.setdefault(clas,lis)                      
-        keys = moment.Keys()
-        for  a in keys:
+        # a = keys = moment.Keys()
+        for  a in moment:
             lis=moment.get(a)
             if (lis!=None):
-                ca = Category(a,(len(lis)/ len(inputL),lis)
+                ca = Category(a,(len(lis)/ len(inputL),lis) )
                 # self.categories.setdefault(a,ca)
                             
         # self.dataInputTraining = inputL
         # self.dataOutputTraining = outputL
-        
-
-class Category:
-
-    def __init__(self, name, pr, values):
-        self.Proba = pr
-        self.name = name
-        self.values = values
-        self.propiedades = values[0].Length
-        self.plus = zeros(values[0].Length)
-        self.CalculateAverage()
-
-    def CalculateAverage(self):
-        total=0
-        for i in range(self.values[0].Length):
-
-            sum = 0
-            for j in range(self.values.Length):
-
-                sum += self.values[j][i]
-                total+=self.values[j][i]
-
-            self.plus[i] = sum
-
-        for i in range(self.propiedades):
-
-            self.plus[i] = self.plus[i]/total
