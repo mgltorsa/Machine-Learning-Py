@@ -51,7 +51,6 @@ class MachineLearning:
             lis.append(tmp)
             if (nExist):
                 moment.setdefault(clas,lis)                      
-<<<<<<< HEAD
         keys = moment.keys()
         for  a in keys:
             lis=moment.get(a)
@@ -96,14 +95,4 @@ m.Learn(t,o)
 rs=m.Decide(t)
 for i in rs:
     print(i)
-=======
-        # a = keys = moment.Keys()
-        for  a in moment:
-            lis=moment.get(a)
-            if (lis!=None):
-                ca = Category(a,(len(lis)/ len(inputL),lis) )
-                # self.categories.setdefault(a,ca)
-                            
-        # self.dataInputTraining = inputL
-        # self.dataOutputTraining = outputL
->>>>>>> bb1552dd567d42a97700a09e886b65377fad287b
+
