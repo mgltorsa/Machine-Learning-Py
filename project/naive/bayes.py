@@ -1,13 +1,7 @@
 from numpy import zeros
 
-
 class MachineLearning:
     
-        # private Dictionary<int,Category> categories;
-        # private int[][] dataInputTraining;
-        # private int[] dataOutputTraining;
-
-
     def __init__(self):
         
         self.categories = {}
@@ -95,4 +89,3 @@ m.Learn(t,o)
 rs=m.Decide(t)
 for i in rs:
     print(i)
-
