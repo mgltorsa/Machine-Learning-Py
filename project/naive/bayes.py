@@ -75,24 +75,24 @@ class Category:
         total=0
         for i in range(self.propiedades):
 
-            sum = 0
+            _sum = 0
             for j in range(len(self.values)):
 
-                sum += self.values[j][i]
+                _sum += self.values[j][i]
                 total+=self.values[j][i]
 
-            self.plus[i] = sum
+            self.plus[i] = _sum
 
         for i in range(self.propiedades):
 
             self.plus[i] = self.plus[i]/total
 
 
-m=MachineLearning() 
+"""m=MachineLearning() 
 t=[[1,3,4,5],[1,1,1,1],[2,4,5,2],[12,41,34,12],[22,11,12,33],[123,123,421,422]]
 o=[3,3,3,2,2,2]
 m.Learn(t,o)
 rs=m.Decide(t)
 for i in rs:
-    print(i)
+    print(i) """
 
