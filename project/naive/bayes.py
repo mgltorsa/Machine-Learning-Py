@@ -69,13 +69,13 @@ class Category:
         total=0
         for i in range(self.propiedades):
 
-            sum = 0
+            _sum = 0
             for j in range(len(self.values)):
 
-                sum += self.values[j][i]
+                _sum += self.values[j][i]
                 total+=self.values[j][i]
 
-            self.plus[i] = sum
+            self.plus[i] = _sum
 
         for i in range(self.propiedades):
 
