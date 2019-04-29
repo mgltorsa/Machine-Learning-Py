@@ -1,5 +1,7 @@
 # Machine-Learning-Py
 
+  Ejecute desde project/controller.py
+
 ## About Machine learning:
 
 ### Naive Bayes
